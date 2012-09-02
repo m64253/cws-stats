@@ -1,0 +1,22 @@
+{
+	"name": "cws-stats",
+	"version": "0.0.0",
+	"private": true,
+	
+	"db": {
+		"host"		: "http://127.0.0.1:5984/stats",
+		"username"	: "admin",
+		"password"	: "admin"
+	},
+	
+	"apps": {
+		"bfh"	: "cehdakiococlfmjcbebbkjkfjhbieknh",
+		"bfp4f"	: "oiokahphinmbmakkehgelkmpolmnbkdh"
+	},
+	
+	"dependencies": {
+		"request"	: ">0.0.0",
+		"async"		: ">0.0.0",
+		"nano"		: ">0.0.0"
+	}
+}
